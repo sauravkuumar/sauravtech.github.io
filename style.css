@@ -68,6 +68,40 @@
 .content .img  .kissu{
     width: 60%;
 }
+.content .conatiner{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 15rem;
+}
+.conatiner  img{
+    width: 50px;
+    padding: 0.5rem;
+}
+.content .conatiner .yt{
+    width: 4rem;
+} 
+.content .conatiner .ins{
+    width: 3.2rem;
+} 
+.content .conatiner .twi{
+    width: 2.8rem;
+} 
+.conatiner{
+        display: flex;
+        display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(253, 253, 253); /* Change to your desired background color */
+            padding: 20px;
+            box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.1); /* Add shadow as needed */
+            border-radius: 0px; 
+            width: 80%;
+            border-radius: 2rem;
+}
 @media screen and (max-width: 768px) {
     .nav{
         display: flex;
@@ -75,7 +109,7 @@
         justify-content: center;
         background-color: white; /* Change to your desired background color */
         padding: 20px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow as needed */
+        box-shadow: 0 0px 20px 10px rgba(0, 0, 0, 0.1); /* Add shadow as needed */
         border-radius: 0px; 
         position: fixed;
         width: 100%;
@@ -104,5 +138,25 @@
     .content .img img{
     
         width: 60%;
+    }
+    .content .conatiner{
+        margin-left: 0.5rem;
+        width: auto;
+        height: 40px;
+    }
+    .conatiner  img{
+        width: 50px;
+        padding: 0.5rem;
+    }
+    .conatiner{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(253, 253, 253); /* Change to your desired background color */
+            padding: 20px;
+            box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.1); /* Add shadow as needed */
+            border-radius: 0px; 
+            width: 80%;
+            border-radius: 2rem;
     }
 }
