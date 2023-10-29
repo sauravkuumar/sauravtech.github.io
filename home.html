@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAURAVTECH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h2>
+            SAURAV<span>Tech</span>
+            </h2>
+        <div class="heading">
+            
+            <a href="index.html" class="underline-hover">BLOGS</a>
+            <a href="" class="underline-hover">SOCIAL</a>
+        </div>
+    </div>
+    
+    <div class="content">
+        <div class="saurav">
+        <img src="saurav.jpg"><h4>Hello! Guys
+            <br>My self saurav,<br> Video creator<br>
+            जय श्री राम<br>
+            DEVELOPER<br>
+            Ex-BRDAVIAN - 20<br>
+            Ex-SSMCD COLLEGE - 22<br>
+            Engineering (MDU)- 22👉26<br>
+            Delhi 🧳<br>
+            <span><div id="number-display">150</div> 
+                </span> accounts reached in the<br> last 30 days.<a href="">View insights</a></h4>
+                <button>Explore more</button>
+    </div>
+        <footer>
+            &copy; 2021 Saurav Tech All rights reserved | Designed by: <a href="https://www.instagram.com/saurav_kuumar_/">Saurav
+        </footer>
+    </div>
+    <script>
+        const numberDisplay = document.getElementById("number-display");
+    
+        
+        let currentNumber = parseInt(localStorage.getItem("currentNumber")) || 0;
+    
+        
+        currentNumber++;
+        numberDisplay.textContent = currentNumber;
+    
+        
+        localStorage.setItem("currentNumber", currentNumber.toString());
+      </script>
+</body>
+</html>
+
